@@ -2,7 +2,7 @@
 layout: runbook
 title: '#4471 is two causes'
 owner: Maxwell Gover
-status: filed
+status: closed
 reviewed: 2026-11-16
 signature: Maxwell Gover
 ---
@@ -24,5 +24,9 @@ Each cause needs a ticket of its own. The table computes the counts.
 <CauseTable ticket={4471} />
 
 Some parser reports were read as a one-day move. They stay filed under parser. The table footnotes them.
+
+## What engineering did
+
+#4471 closed on 5 October. The parser fix is `fix(dates): parse dd/mm for eu locales`. The hint will not be fixed: the booking-v3 form was retired.
 
 <RenderStamp {signature} />
