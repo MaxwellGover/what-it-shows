@@ -4,7 +4,7 @@ title: '#4471 is two causes'
 owner: Maxwell Gover
 status: closed
 reviewed: 2026-11-16
-signature: Maxwell Gover
+signature: "v1.eyJzdWIiOiI1MTExIiwiYXVkIjoiY2hhbGxlbmdlOndoYXQtaXQtc2hvd3MiLCJpYXQiOjE3OTQ4NjE5MDMsImV4cCI6MTc5NDk0ODMwM30._7GAp46OxH49TDc35XcXtlnSlZnklIH2-PWYtWZ4VO4"
 ---
 
 <script>
