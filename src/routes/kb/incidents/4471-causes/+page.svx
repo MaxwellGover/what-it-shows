@@ -1,0 +1,28 @@
+---
+layout: runbook
+title: '#4471 is two causes'
+owner: Maxwell Gover
+status: filed
+reviewed: 2026-11-16
+signature: Maxwell Gover
+---
+
+<script>
+  import CauseTable from '#lib/kb/CauseTable.svelte';
+  import Callout from '#lib/kb/Callout.svelte';
+  import RenderStamp from '#lib/kb/RenderStamp.svelte';
+</script>
+
+#4471 was filed as one known parser bug. The reports merged into it have two causes.
+
+A day-first tenant on the shared parser is the parser cause: the parser reads the month first. A day-first tenant who sent the report through the booking-v3 form is the hint cause: that form prints MM/DD/YYYY, the person types the month first, and the form reads the day first.
+
+<Callout kind="warn">
+Each cause needs a ticket of its own. The table computes the counts.
+</Callout>
+
+<CauseTable ticket={4471} />
+
+Some parser reports were read as a one-day move. They stay filed under parser. The table footnotes them.
+
+<RenderStamp {signature} />
